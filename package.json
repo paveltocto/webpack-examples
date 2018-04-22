@@ -9,7 +9,8 @@
     "build:cssstyle": "webpack --config ./css-style-loader/webpack.config.js --mode=development",
     "build:extra-text": "webpack --config ./plugin-extra-text/webpack.config.js --mode=development",
     "build:babel": "webpack --config ./babel/webpack.config.js --mode=development",
-    "build:multiples-entries": "webpack --config ./multiples-entry-points/webpack.config.js --mode=development"
+    "build:multiples-entries": "webpack --config ./multiples-entry-points/webpack.config.js --mode=development",
+    "build:stylus-loader": "webpack --config ./stylus-loader/webpack.config.js --mode=development"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,8 @@
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   }
