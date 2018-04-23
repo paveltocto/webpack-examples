@@ -8,9 +8,10 @@
     "build:local": "webpack --mode=development",
     "build:cssstyle": "webpack --config ./css-style-loader/webpack.config.js --mode=development",
     "build:extra-text": "webpack --config ./plugin-extra-text/webpack.config.js --mode=development",
-    "build:babel": "webpack --config ./babel/webpack.config.js --mode=development",
+    "build:babel": "webpack --config ./babel-loader/webpack.config.js --mode=development",
     "build:multiples-entries": "webpack --config ./multiples-entry-points/webpack.config.js --mode=development",
-    "build:stylus-loader": "webpack --config ./stylus-loader/webpack.config.js --mode=development"
+    "build:stylus-loader": "webpack --config ./stylus-loader/webpack.config.js --mode=development",
+    "build:url-loader": "webpack --config ./url-loader/webpack.config.js --mode=development"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "style-loader": "^0.21.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "url-loader": "^1.0.1",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   }
