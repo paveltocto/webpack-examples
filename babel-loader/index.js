@@ -8,6 +8,6 @@ const sum = (a, b) => {
     return a + b;
 };
 
-document.write('Webpack - Babel' + sum(5, 4));
+document.write('Webpack - Babel Suma: ' + sum(5, 4));
 
 console.log('Hola mundo!, desde Webpack en un webpack.configwww');
