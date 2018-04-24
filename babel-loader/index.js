@@ -1,13 +1,12 @@
 import Message from './Message';
 import './style.css'
 
-let message = new Message('Hola Webpack');
-message.show();
+let message = new Message('Webpack - Babel Northsouth Studios');
 
 const sum = (a, b) => {
     return a + b;
 };
 
-document.write('Webpack - Babel Suma: ' + sum(5, 4));
+document.body.append(message.makeMessage());
 
-console.log('Hola mundo!, desde Webpack en un webpack.configwww');
+console.log('Suma: ' +  sum(5,9));
