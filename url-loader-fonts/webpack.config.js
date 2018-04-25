@@ -29,7 +29,7 @@ module.exports = {
                 use: {
                     loader: 'url-loader',
                     options: {
-                        limit: 10000,
+                        limit: 1000000,
                         fallback: 'file-loader'
                     }
                 }
