@@ -6,10 +6,12 @@ module.exports = {
     entry: {
         vendor: [
             'jquery',
-            'select2',
-            'select2/dist/css/select2.css'
+            'popper.js',
+            'bootstrap',
+            'bootstrap/dist/css/bootstrap.css'
         ],
     },
+    performance: { hints: false },
     output: {
         path: path.resolve(__dirname, 'dist/assets'),
         filename: 'js/[name].js',
